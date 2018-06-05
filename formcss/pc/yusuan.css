@@ -1,0 +1,107 @@
+#myform{
+	 	width: 1000px;
+	 	margin: 0 auto;
+	 	overflow: hidden;
+	 	text-align: left;
+	 	padding-bottom: 15px;
+	 	padding-top: 30px;
+	 	position: relative;
+	 	color: #f4bb56;
+	 	background: url(http://www.wswhg.com/formajax/formpic/formbg.png)no-repeat center center;
+	 	background-size: 100% 100%;
+}
+	/*#myform .formbg{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 91.73333333333333vw;
+	 	height: 50vw;
+	 	margin: 0 auto;
+
+	 	opacity: 1;
+	 	z-index: 1;
+	}*/
+	#myform .title{
+		display: block;
+		margin: 0 auto;
+		margin-bottom:25px;
+		
+	}
+	#myform .left{
+		 float: left;
+		 font-size: 16px;
+	 	color: #f4bb56;
+		margin-right: 35px;
+	}
+	#myform .left #KS_City,#myform .left #KS_Area{
+		width:80px;
+		height: 35px;
+		font-size: 16px;
+		background: url(http://www.wswhg.com/formajax/formpic/smipbg.png)no-repeat center center;
+		background-size: 100% 100%;
+		outline: none;
+		resize: none;
+		margin: 0;
+		padding: 0;
+		border: none;
+		padding-left:10px;
+		margin-right: 15px;
+	}
+	#myform .left p{
+		margin: 0;
+		padding: 0;
+		margin-bottom: 15px;
+	}
+	#myform .left p:nth-child(2) span{
+		 position: relative;
+	}
+	#myform .left p:nth-child(4){
+		 border-radius: 10px;
+		 font-size: 12px;
+		 display: inline-block;
+	}
+	#myform .left p:nth-child(2) label{
+		background: url(http://www.wswhg.com/formajax/formpic/nock.png)no-repeat left center;
+		background-size: 16px 16px;
+		 padding-left: 20px;
+	}
+	#myform input[type="radio"]:checked + label{
+			background: url(http://www.wswhg.com/formajax/formpic/ckbg.png)no-repeat left center;
+			background-size: 16px 16px;
+			 padding-left: 20px;
+	}
+	#myform .right{
+		float: left;
+	}
+	#myform input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+	}
+	#myform #KS_Tel{
+		width: 300px;
+		background: url(http://www.wswhg.com/formajax/formpic/smipbg.png)no-repeat center center;
+		background-size: 100% 100%;
+		outline: none;
+		resize: none;
+		margin: 0;
+		padding: 0;
+		border: none;
+		height: 35px;
+		font-size: 16px;
+		padding-left: 1vw;
+		
+	}
+	#myform  .leftinfo{
+		width: 28.26666666666667vw;
+	}
+	#myform #submit{
+		width: 143px;
+    	height: 127px;
+		background: url(http://www.wswhg.com/formajax/formpic/btnbg.png)no-repeat center center;
+		background-size: 100% 100%;
+		border: none;
+		padding: 0;
+		margin: 0;
+		outline: none;
+		
+	}
